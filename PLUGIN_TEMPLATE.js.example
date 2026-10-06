@@ -1,0 +1,10 @@
+// Rename this file to a .js file and move it into src/Commands/<category>/.
+module.exports = {
+    name: 'hello',
+    alias: ['hi'],
+    desc: 'Say hello',
+    category: 'General',
+    execute: async (sock, message, { reply }) => {
+        await reply('Hello!');
+    }
+};
