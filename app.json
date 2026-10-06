@@ -1,0 +1,22 @@
+{
+  "name": "waplus-free-bot",
+  "description": "WaPlus free WhatsApp bot starter powered by @musteqeem/baileys",
+  "repository": "https://github.com/musteqeem/waplug",
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "waplus",
+    "plugins"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1
+    }
+  }
+}
