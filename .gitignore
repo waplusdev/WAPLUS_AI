@@ -1,8 +1,5 @@
 node_modules/
+session/
+database/
 .env
-sessions/
-database/*.sqlite
-database/*.sqlite-*
-database/runtime-config.json
-npm-debug.log*
 *.log
