@@ -1,15 +1,13 @@
 {
-  "name": "waplus-free-bot",
+  "name": "waplus-premium-bot",
   "version": "2.0.0",
-  "description": "Free, fully editable WaPlus WhatsApp bot starter powered by @musteqeem/baileys.",
+  "description": "Premium WhatsApp starter bot for new developers, powered by @musteqeem/baileys.",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "pair": "node cli.js pair",
-    "check": "node scripts/check.js",
-    "test": "node --test"
+    "check": "node scripts/check.js"
   },
   "keywords": [
     "whatsapp",
@@ -21,21 +19,19 @@
     "github",
     "starter"
   ],
-  "author": "WaPlus Contributors",
+  "author": "Musteqeem",
   "license": "MIT",
   "engines": {
     "node": ">=20"
   },
   "dependencies": {
-    "@google/generative-ai": "^0.24.1",
     "@hapi/boom": "^10.0.1",
     "@musteqeem/baileys": "^1.0.7",
-    "better-sqlite3": "^11.7.0",
-    "chalk": "^4.1.2",
     "dotenv": "^17.3.1",
     "express": "^4.22.1",
+    "node-webpmux": "^3.2.1",
     "pino": "^8.17.0",
-    "socket.io": "^4.7.5"
+    "sharp": "^0.34.5"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
